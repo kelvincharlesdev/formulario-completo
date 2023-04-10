@@ -21,7 +21,7 @@ A validação vai mostrar uma mensagem de erro em cada input vazio, ficando com 
 ## 🖱️ A página
 <img src="src/gif/gif.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
-> <a href="https://validacao-de-formulario-zeta.vercel.app/" target= "_blank">Acesse a página online</a>  
+> <a href="https://formulario-completo-lac.vercel.app/" target= "_blank">Acesse a página online</a>  
 
 
 ## 👩‍💻 Dev
