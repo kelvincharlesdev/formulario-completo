@@ -1,0 +1,78 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #121212;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fafafa;
+    border-radius: 1.4rem;
+    margin: 1.4rem;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.container .header{
+    background: linear-gradient(120deg, #3acbf0 0%, #8bb0ff 100%);
+    padding: 2.4rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+.container .form{
+    padding: 1.8rem;
+}
+
+.container .form .form-content{
+    margin-bottom: 0.8rem;
+    padding-bottom: 1.8rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.container .form .form-content input{
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+    border: 2px solid #dfdfdf;
+}
+
+.container .form .form-content p{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.container .form button{
+    background-color: #00c3ff;
+    color: #fff;
+    width: 100%;
+    border-radius: 1.4rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-top: 1.4rem;
+}
+
+
+.container .form .form-content.error input{
+    border-color: #ff3b25;
+}
+
+.container .form .form-content.error p{
+    color: #ff3b25;
+    visibility: visible;
+}
